@@ -1,0 +1,34 @@
+drop table if exists `Candidates`;
+drop table if exists `Results`;
+CREATE TABLE Candidates (
+    id int,
+    gender varchar(255),
+    age int,
+    party varchar(255)
+);
+
+CREATE TABLE Results (
+    constituency_id int,
+    candidate_id int,
+    votes int
+);
+
+INSERT INTO Candidates VALUES (1, 'M', 55, 'Democratic');
+INSERT INTO Candidates VALUES (2, 'M', 51, 'Democratic');
+INSERT INTO Candidates VALUES (3, 'F', 52, 'Democratic');
+INSERT INTO Candidates VALUES (4, 'M', 60, 'Republican');
+INSERT INTO Candidates VALUES (5, 'F', 61, 'Republican');
+INSERT INTO Candidates VALUES (6, 'F', 58, 'Republican');
+
+INSERT INTO Results VALUES (1, 1, 847529);
+INSERT INTO Results VALUES (1, 4, 283409);
+INSERT INTO Results VALUES (2, 2, 293841);
+INSERT INTO Results VALUES (2, 5, 394385);
+INSERT INTO Results VALUES (3, 3, 429084);
+INSERT INTO Results VALUES (3, 6, 303890);
+
+/*
+Expected Output:
+Democratic 2
+Republic 1
+*/
