@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OhGoe5Qn3nDSQ9cHnL01RiXKv5U87/mMrM+Pkbf1KfplbqdB5+MYuqJ/4lUiHvjiW7/Cm3dXXYZDm3bEbgaPrA==",
+  "success": true,
+  "projectFilePath": "D:\\Felix\\Code\\trophy_challenge\\REST API Country Codes\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felix\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
